@@ -1,36 +1,51 @@
 # OfflineJsonKit
 
-#### Description
-一个完全离线的单HTML文件前端工具集合，包含JSON解析、格式转换、二维码生成等常用开发工具。
+A fully offline, single-file HTML toolbox for common development tasks, including JSON parsing, format conversion, image Base64 conversion, and QR code generation.
 
-#### Software Architecture
-Software architecture description
+## Features
 
-#### Installation
+### 📝 JSON Parser
+- Format and prettify JSON
+- Minify JSON
+- Clear input and copy results with one click
+- Syntax-highlighted output
+- Collapsible nodes
+- Dark theme UI
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 🔄 Encoding Conversion
+- **Base64** text encode/decode
+- **URL** encode/decode
+- **Image ↔ Base64** conversion
+  - Upload local images and convert them to Base64
+  - Paste Base64 and preview images
+  - Copy Base64 results with one click
 
-#### Instructions
+### 📱 QR Code Generator
+- Generate QR codes offline from any text or link
+- Works fully offline with no network requests
+- Download QR codes as PNG images
+- Adds a white quiet zone to improve scan reliability
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 🌐 Bilingual UI
+- Automatically selects Chinese or English based on browser language
+- Chinese browsers default to Chinese; other browser languages default to English
+- Manual language switching is persisted with `localStorage`
 
-#### Contribution
+### 💾 Local Storage
+- Uses browser `localStorage` to save the language preference
+- Input auto-save is currently disabled, so refreshing the page does not restore previous input
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Usage
 
+Open `index.html` directly in a browser. No deployment or server is required; everything runs offline.
 
-#### Gitee Feature
+## Changelog
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+See [VERSION.md](./VERSION.md) for detailed version history.
+
+## Highlights
+
+- ✨ Single file, no dependencies, fully offline
+- 🎨 Clean and compact interface
+- 🔒 Privacy-friendly: data is not uploaded to any server
+- 🚀 Fast response and local processing
