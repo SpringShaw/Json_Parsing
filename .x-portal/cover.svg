@@ -1,41 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">JSON Parsing Toolbox project cover</title>
-  <desc id="desc">Format JSON, convert encodings and generate QR codes locally</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">JSON 解析工具封面</title>
   <defs>
-    <radialGradient id="softGlow" cx="80%" cy="22%" r="62%">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".18"/>
-      <stop offset=".58" stop-color="#06B6D4" stop-opacity=".08"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F7FF"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="28%" r="55%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#06B6D4" stop-opacity=".08"/>
       <stop offset="1" stop-color="#F8F7FF" stop-opacity="0"/>
     </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#18142D" flood-opacity=".14"/>
-    </filter>
   </defs>
-  <rect width="1200" height="630" rx="44" fill="#F8F7FF"/>
-  <rect width="1200" height="630" rx="44" fill="url(#softGlow)"/>
-  <path d="M70 96 C250 30 374 74 514 44 C658 12 746 54 864 34 C982 14 1074 52 1130 108" fill="none" stroke="#18142D" stroke-opacity=".055" stroke-width="26" stroke-linecap="round"/>
-  <g filter="url(#shadow)">
-    <rect x="58" y="64" width="1084" height="502" rx="42" fill="white" fill-opacity=".76" stroke="white" stroke-width="2"/>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(600 315)">
+    <circle cx="0" cy="0" r="148" fill="#FFFFFF" fill-opacity=".55"/>
+    <circle cx="0" cy="0" r="118" fill="#FFFFFF" fill-opacity=".72" stroke="#8B5CF6" stroke-width="6" stroke-opacity=".18"/>
+    <text x="0" y="36" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="132" font-weight="800" fill="#8B5CF6">{ }</text>
+    <path d="M-72 68 h144 M-72 98 h96" stroke="#18142D" stroke-width="8" stroke-linecap="round" opacity=".12"/>
   </g>
-  <g transform="translate(90 118)">
-    <rect x="0" y="0" width="58" height="58" rx="18" fill="#8B5CF6"/>
-    <circle cx="42" cy="16" r="10" fill="#06B6D4"/>
-    <text x="78" y="24" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#8B5CF6">SpringShaw/Json_Parsing</text>
-    <text x="78" y="51" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="650" fill="#18142D" opacity=".58">Offline developer utilities</text>
-  </g>
-  <text x="90" y="262" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="900" fill="#18142D">JSON Parsing Toolbox</text>
-  <text x="92" y="318" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650" fill="#18142D" opacity=".70">Format JSON, convert encodings and generate QR codes locally</text>
-  <path d="M92 374 h390" stroke="#8B5CF6" stroke-width="10" stroke-linecap="round"/>
-  <path d="M92 399 h260" stroke="#06B6D4" stroke-width="10" stroke-linecap="round" opacity=".65"/>
-  <rect x="90" y="482" width="159" height="44" rx="22" fill="white" stroke="#18142D" stroke-opacity=".10"/><text x="109" y="511" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#18142D" opacity=".72">JSON braces</text><rect x="263" y="482" width="104" height="44" rx="22" fill="white" stroke="#18142D" stroke-opacity=".10"/><text x="282" y="511" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#18142D" opacity=".72">Base64</text><rect x="381" y="482" width="148" height="44" rx="22" fill="white" stroke="#18142D" stroke-opacity=".10"/><text x="400" y="511" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#18142D" opacity=".72">URL encode</text><rect x="543" y="482" width="115" height="44" rx="22" fill="white" stroke="#18142D" stroke-opacity=".10"/><text x="562" y="511" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#18142D" opacity=".72">QR code</text>
-  
-        <g transform="translate(720 146)">
-          <rect x="36" y="34" width="348" height="336" rx="38" fill="white" stroke="#18142D" stroke-width="8"/>
-          <text x="90" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="92" font-weight="800" fill="#8B5CF6">{ }</text>
-          <path d="M96 234 h226 M96 278 h166 M96 322 h206" stroke="#18142D" stroke-width="10" stroke-linecap="round" opacity=".35"/>
-          <g transform="translate(284 54)">
-            <rect x="0" y="0" width="84" height="84" rx="16" fill="#06B6D4"/>
-            <path d="M14 14 h20 v20 h-20zM50 14 h20v20H50zM14 50h20v20H14zM50 50h8v8h12v12H50z" fill="white"/>
-          </g>
-        </g>
+  <text x="1080" y="560" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="220" font-weight="900" fill="#8B5CF6" opacity=".07">J</text>
 </svg>
