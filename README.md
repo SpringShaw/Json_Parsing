@@ -1,6 +1,10 @@
 # JSON解析工具箱
 
-一个完全离线的单HTML文件前端工具集合，包含JSON解析、格式转换、二维码生成等常用开发工具。
+一个**完全离线**的单HTML文件前端工具集合，集成 JSON 解析、Base64 编解码（文本/图片）、URL 编解码、二维码生成和图片压缩等常用开发工具。
+
+## 界面预览
+
+<img src="./README.assets/screenshot-zh.png" alt="界面总览" style="zoom:33%;" />
 
 ## 功能特性
 

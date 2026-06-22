@@ -1,6 +1,10 @@
 # OfflineJsonKit
 
-A fully offline, single-file HTML toolbox for common development tasks, including JSON parsing, format conversion, image Base64 conversion, and QR code generation.
+A fully **offline**, single-file HTML toolbox that bundles common developer utilities: JSON parsing, Base64 encode/decode (text & image), URL encode/decode, QR code generation, and image compression.
+
+## Preview
+
+<img src="./README.en.assets/screenshot-en.png" alt="Overview" style="zoom:33%;" />
 
 ## Features
 
