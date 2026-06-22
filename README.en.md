@@ -26,6 +26,13 @@ A fully offline, single-file HTML toolbox for common development tasks, includin
 - Download QR codes as PNG images
 - Adds a white quiet zone to improve scan reliability
 
+### 🗜️ Image Compression
+- Compress images fully offline, similar to TinyPNG / Squoosh, with no server upload
+- Target-size mode: set a target size (KB/MB) and it auto-searches quality and scales down if needed to stay under the target
+- Quality-slider mode: manually adjust the compression quality and see the resulting size in real time
+- Output as JPEG / WebP, with an optional max width/height limit
+- Shows original size, compressed size and reduction ratio, with one-click download
+
 ### 🌐 Bilingual UI
 - Automatically selects Chinese or English based on browser language
 - Chinese browsers default to Chinese; other browser languages default to English
