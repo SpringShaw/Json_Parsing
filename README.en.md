@@ -1,5 +1,7 @@
 # OfflineJsonKit
 
+**English** | [简体中文](./README.md)
+
 A fully **offline**, single-file HTML toolbox that bundles common developer utilities: JSON parsing, Base64 encode/decode (text & image), URL encode/decode, QR code generation, and image compression.
 
 ## Preview
